@@ -30,7 +30,6 @@ public class PlayerController : MonoBehaviour
     public float yDir;
 
     public SpriteRenderer[] allSprites;
-    public GameObject spritePos;
 
     public int health = 5;
     bool isTakingDamage;
@@ -39,7 +38,7 @@ public class PlayerController : MonoBehaviour
     bool isInvincible;
 
     void Start() {
-        allSprites = spritePos.GetComponentsInChildren<SpriteRenderer>(true);
+        //allSprites = spritePos.GetComponentsInChildren<SpriteRenderer>(true);
         isFacingRight = true;
     }
 
@@ -68,7 +67,7 @@ public class PlayerController : MonoBehaviour
 
     private void Jump() {
         if (Input.GetKey(KeyCode.U)) {
-            rb2d.velocity += new Vector2(0, 1);
+            rb2d.velocity = new Vector2(rb2d.velocity.x, 10);
         }
         if (cannotMove) return;
 
@@ -88,6 +87,7 @@ public class PlayerController : MonoBehaviour
 
     private void Dash() {
         if (!canDash) return;
+        if (!isGrounded && hasLanded) return;
 
         if (Input.GetKeyDown(KeyCode.X)) {
             squishAnimator.SetTrigger("SquishDashStart");
@@ -128,7 +128,7 @@ public class PlayerController : MonoBehaviour
         if (isDashing) return;
 
         if ((Input.GetKey(KeyCode.RightArrow) && transform.localScale.x < 0)) {
-            transform.localScale = new Vector3(1, transform.localScale.y, transform.localScale.z);
+            transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
             markSprite.flipX = true;
             leafTransformLeft.localScale = new Vector3(1, 1, 1);
             leafTransformRight.localScale = new Vector3(0.6f, 0.6f, 1);
@@ -136,17 +136,17 @@ public class PlayerController : MonoBehaviour
 
         
         if ((Input.GetKey(KeyCode.LeftArrow) && transform.localScale.x > 0)) {
-            transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
+            transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
             markSprite.flipX = false;
             leafTransformLeft.localScale = new Vector3(0.6f, 0.6f, 1);
             leafTransformRight.localScale = new Vector3(1, 1, 1);
         }
 
         if (Input.GetKey(KeyCode.RightArrow) && Input.GetKey(KeyCode.LeftArrow)) {
-            transform.localScale = new Vector3(1, transform.localScale.y, transform.localScale.z);
-            markSprite.flipX = true;
-            leafTransformLeft.localScale = new Vector3(1, 1, 1);
-            leafTransformRight.localScale = new Vector3(0.6f, 0.6f, 1);
+            transform.localScale = new Vector3(transform.localScale.x, transform.localScale.y, transform.localScale.z);
+            markSprite.flipX = false;
+            leafTransformLeft.localScale = new Vector3(0.6f, 0.6f, 1);
+            leafTransformRight.localScale = new Vector3(1, 1, 1);
         }
     }
 
@@ -222,6 +222,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    MovingPlatformTrigger mpt;
     void OnTriggerStay2D(Collider2D otherCollider) {
         if (otherCollider.tag == "Enemy") {
             if (!isInvincible) {
@@ -229,6 +230,20 @@ public class PlayerController : MonoBehaviour
                 isInvincible = true;
                 //AudioHandler.Instance.PlaySound(AudioHandler.Instance.playerDamaged);
             }
+        }
+        if (otherCollider.tag == "MovingPlatformTrigger") {
+            if (isGrounded) {
+                mpt = otherCollider.GetComponent<MovingPlatformTrigger>();
+                transform.parent = mpt.movingPlatform.transform;
+            } else {
+                transform.parent = null;
+            }
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D otherCollider) {
+        if (otherCollider.tag == "MovingPlatformTrigger") {
+            transform.parent = null;
         }
     }
 }
