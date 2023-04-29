@@ -6,6 +6,7 @@ TagManager:
   tags:
   - MovingPlatformTrigger
   - Enemy
+  - PlayerAttack
   layers:
   - Default
   - TransparentFX
@@ -14,9 +15,9 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
-  - 
-  - 
+  - Player
+  - IgnorePlayerAttack
+  - PlayerTrigger
   - 
   - 
   - 
@@ -40,6 +41,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 899569853
+    locked: 0
   - name: Enemy
     uniqueID: 1716644291
     locked: 0

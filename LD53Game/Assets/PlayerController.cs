@@ -17,6 +17,9 @@ public class PlayerController : MonoBehaviour
     public bool canDash = true;
     public bool isDashing;
     public bool haltDash;
+    Coroutine dashCoroutine;
+    public Collider2D dashAttackCollider;
+    public bool hasHitDashAttack;
 
     public SpriteRenderer markSprite;
 
@@ -49,6 +52,7 @@ public class PlayerController : MonoBehaviour
 
         if (isGrounded && !hasLanded) {
             hasLanded = true;
+            canDash = true;
             squishAnimator.SetTrigger("SquishDown");
             //AudioHandler.Instance.PlaySound(AudioHandler.Instance.playerLand, 0.6f, Random.Range(0.95f, 1.2f));
         }
@@ -80,20 +84,20 @@ public class PlayerController : MonoBehaviour
         }
 
         if (Input.GetKeyUp(KeyCode.Z) || Input.GetKeyDown(KeyCode.Y)) {
-            if (rb2d.velocity.y > 0)
+            if (rb2d.velocity.y > 0 && !hasHitDashAttack)
                 rb2d.velocity = new Vector2(rb2d.velocity.x, rb2d.velocity.y * 0.5f);
         }
     }
 
     private void Dash() {
         if (!canDash) return;
-        if (!isGrounded && hasLanded) return;
 
         if (Input.GetKeyDown(KeyCode.X)) {
+            dashAttackCollider.enabled = true;
             squishAnimator.SetTrigger("SquishDashStart");
             canDash = false;
             isDashing = true;
-            StartCoroutine(DashCo());
+            dashCoroutine = StartCoroutine(DashCo());
         }
     }
 
@@ -119,9 +123,37 @@ public class PlayerController : MonoBehaviour
         rb2d.gravityScale = 3;
         isDashing = false;
         squishAnimator.SetTrigger("SquishJump");
+        dashAttackCollider.enabled = false;
+        
+        if (isGrounded) {
+            yield return new WaitForSeconds(0.2f);
+            canDash = true;
+        }
 
-        yield return new WaitForSeconds(0.2f);
+        dashCoroutine = null;
+    }
+
+    public void DashAttackHit() {
+        StopCoroutine(dashCoroutine);
+        hasHitDashAttack = true;
+        StartCoroutine(DashAttackHitCo());
+    }
+
+    IEnumerator DashAttackHitCo() {
+        haltDash = false;
+        isDashing = false;
+        canDash = false;
+        rb2d.velocity = Vector2.zero;
+        jumpPeakTimer = 0;
+        rb2d.gravityScale = 3;
+        squishAnimator.SetTrigger("SquishJump");
+        dashAttackCollider.enabled = false;
+
+        rb2d.velocity += new Vector2(0, jumpPower);
+        yield return new WaitForSeconds(0.1f);
         canDash = true;
+        yield return new WaitForSeconds(1f);
+        hasHitDashAttack = false;
     }
 
     private void FlipPlayer() {
