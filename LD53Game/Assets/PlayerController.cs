@@ -83,7 +83,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyUp(KeyCode.Z) || Input.GetKeyDown(KeyCode.Y)) {
+        if (Input.GetKeyUp(KeyCode.Z) || Input.GetKeyUp(KeyCode.Y)) {
             if (rb2d.velocity.y > 0 && !hasHitDashAttack)
                 rb2d.velocity = new Vector2(rb2d.velocity.x, rb2d.velocity.y * 0.5f);
         }

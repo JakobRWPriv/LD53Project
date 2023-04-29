@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy1Script : MonoBehaviour
+public class Enemy1Script : Enemy
 {
     public PlayerController player;
     public bool playerInFront;
@@ -38,8 +38,13 @@ public class Enemy1Script : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D otherCollider) {
         if (otherCollider.tag == "PlayerAttack") {
-            player.DashAttackHit();
-            Destroy(gameObject);
+            TakeDamage();
         }
+    }
+
+    public override void TakeDamage() {
+        base.TakeDamage();
+        player.DashAttackHit();
+        Destroy(gameObject);
     }
 }
