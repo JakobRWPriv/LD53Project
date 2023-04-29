@@ -36,8 +36,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\SquigglySprite.cs" />
      <Compile Include="Assets\PlayerController.cs" />
+     <Compile Include="Assets\SquigglySprite.cs" />
+     <Compile Include="Assets\CameraMovement.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

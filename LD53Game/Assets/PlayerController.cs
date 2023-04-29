@@ -10,11 +10,18 @@ public class PlayerController : MonoBehaviour
     public float jumpPeakTimer;
     public Rigidbody2D rb2d;
     public bool isGrounded;
-    bool isFacingRight;
+    public bool isFacingRight;
     public Collider2D groundTrigger;
     bool hasLanded;
 
+    public bool canDash = true;
+    public bool isDashing;
+    public bool haltDash;
+
     public SpriteRenderer markSprite;
+
+    public Transform leafTransformLeft;
+    public Transform leafTransformRight;
 
     public Animator animator;
     public Animator squishAnimator;
@@ -47,22 +54,25 @@ public class PlayerController : MonoBehaviour
             //AudioHandler.Instance.PlaySound(AudioHandler.Instance.playerLand, 0.6f, Random.Range(0.95f, 1.2f));
         }
 
-        if (transform.localScale.x > 0 && !isFacingRight)
-            isFacingRight = true;
-        else if (transform.localScale.x < 0 && isFacingRight)
-            isFacingRight = false;
+        if (!isDashing) {
+            if (transform.localScale.x > 0 && !isFacingRight)
+                isFacingRight = true;
+            else if (transform.localScale.x < 0 && isFacingRight)
+                isFacingRight = false;
+        }
 
         Jump();
+        Dash();
         FlipPlayer();
     }
 
     private void Jump() {
         if (Input.GetKey(KeyCode.U)) {
-            rb2d.velocity += new Vector2(0, jumpPower);
+            rb2d.velocity += new Vector2(0, 1);
         }
         if (cannotMove) return;
 
-        if (Input.GetKeyDown(KeyCode.Z)) {
+        if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Y)) {
             if (isGrounded) {
                 rb2d.velocity += new Vector2(0, jumpPower);
                 squishAnimator.SetTrigger("SquishJump");
@@ -70,27 +80,73 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyUp(KeyCode.Z)) {
+        if (Input.GetKeyUp(KeyCode.Z) || Input.GetKeyDown(KeyCode.Y)) {
             if (rb2d.velocity.y > 0)
                 rb2d.velocity = new Vector2(rb2d.velocity.x, rb2d.velocity.y * 0.5f);
         }
     }
 
+    private void Dash() {
+        if (!canDash) return;
+
+        if (Input.GetKeyDown(KeyCode.X)) {
+            squishAnimator.SetTrigger("SquishDashStart");
+            canDash = false;
+            isDashing = true;
+            StartCoroutine(DashCo());
+        }
+    }
+
+    IEnumerator DashCo() {
+        rb2d.velocity = Vector2.zero;
+        rb2d.gravityScale = 0;
+
+        if (isFacingRight) {
+            rb2d.velocity = new Vector2(30f, 0);
+        } else {
+            rb2d.velocity = new Vector2(-30f, 0);
+        }
+
+        yield return new WaitForSeconds(0.1f);
+
+        haltDash = true;
+
+        yield return new WaitForSeconds(0.3f);
+
+        haltDash = false;
+        rb2d.velocity = Vector2.zero;
+        jumpPeakTimer = 0;
+        rb2d.gravityScale = 3;
+        isDashing = false;
+        squishAnimator.SetTrigger("SquishJump");
+
+        yield return new WaitForSeconds(0.2f);
+        canDash = true;
+    }
+
     private void FlipPlayer() {
+        if (isDashing) return;
+
         if ((Input.GetKey(KeyCode.RightArrow) && transform.localScale.x < 0)) {
             transform.localScale = new Vector3(1, transform.localScale.y, transform.localScale.z);
             markSprite.flipX = true;
+            leafTransformLeft.localScale = new Vector3(1, 1, 1);
+            leafTransformRight.localScale = new Vector3(0.6f, 0.6f, 1);
         }
 
         
         if ((Input.GetKey(KeyCode.LeftArrow) && transform.localScale.x > 0)) {
             transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
             markSprite.flipX = false;
+            leafTransformLeft.localScale = new Vector3(0.6f, 0.6f, 1);
+            leafTransformRight.localScale = new Vector3(1, 1, 1);
         }
 
         if (Input.GetKey(KeyCode.RightArrow) && Input.GetKey(KeyCode.LeftArrow)) {
             transform.localScale = new Vector3(1, transform.localScale.y, transform.localScale.z);
             markSprite.flipX = true;
+            leafTransformLeft.localScale = new Vector3(1, 1, 1);
+            leafTransformRight.localScale = new Vector3(0.6f, 0.6f, 1);
         }
     }
 
@@ -101,44 +157,52 @@ public class PlayerController : MonoBehaviour
 
         isGrounded = (Physics2D.IsTouchingLayers(groundTrigger, 1 << LayerMask.NameToLayer("Ground")) && rb2d.velocity.y < 0.01f && rb2d.velocity.y > -0.01f);
 
-        if (Input.GetKey(KeyCode.LeftArrow)) {
-            float accel = acceleration;
-            if (rb2d.velocity.x > 0) {
-                accel = acceleration * 2f;
+        if (!isDashing) {
+            if (Input.GetKey(KeyCode.LeftArrow) ) {
+                float accel = acceleration;
+                if (rb2d.velocity.x > 0) {
+                    accel = acceleration * 2f;
+                }
+                if (rb2d.velocity.x > -maxSpeed) {
+                    rb2d.AddForce(-Vector3.right * accel);
+                }
             }
-            if (rb2d.velocity.x > -maxSpeed) {
-                rb2d.AddForce(-Vector3.right * accel);
+            if (Input.GetKey(KeyCode.RightArrow)) {
+                float accel = acceleration;
+                if (rb2d.velocity.x < 0) {
+                    accel = acceleration * 2f;
+                }
+                if (rb2d.velocity.x < maxSpeed) {
+                    rb2d.AddForce(Vector3.right * accel);
+                }
             }
-        }
-        if (Input.GetKey(KeyCode.RightArrow)) {
-            float accel = acceleration;
-            if (rb2d.velocity.x < 0) {
-                accel = acceleration * 2f;
-            }
-            if (rb2d.velocity.x < maxSpeed) {
-                rb2d.AddForce(Vector3.right * accel);
-            }
-        }
 
-        if (!isGrounded && rb2d.velocity.y > 0) {
-            jumpPeakTimer += Time.fixedDeltaTime;
+            if (!isGrounded && rb2d.velocity.y > 0) {
+                jumpPeakTimer += Time.fixedDeltaTime;
+            }
+
+            if (jumpPeakTimer > 0.3f && !Input.GetKey(KeyCode.U)) {
+                rb2d.gravityScale = 1f;
+            }
+
+            if (isGrounded || rb2d.velocity.y < 0) {
+                jumpPeakTimer = 0;
+                rb2d.gravityScale = 3f;
+            }
+        }
+            
+        if (haltDash) {
+            rb2d.velocity = new Vector2(rb2d.velocity.x * 0.8f, 0);
         }
         
-        if (jumpPeakTimer > 0.3f) {
-            rb2d.gravityScale = 1f;
-        }
-
-        if (isGrounded || rb2d.velocity.y < 0) {
-            jumpPeakTimer = 0;
-            rb2d.gravityScale = 3f;
-        }
 
         animator.SetBool("IsRunning", (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.LeftArrow)));
         animator.SetBool("IsJumping", !isGrounded);
+        animator.SetBool("IsDashing", isDashing);
     }
 
     private void AddFriction() {
-        if (cannotMove) return;
+        if (cannotMove || isDashing) return;
 
         if (!(Input.GetKey(KeyCode.RightArrow)) && !(Input.GetKey(KeyCode.LeftArrow))) {
             if (isGrounded)
