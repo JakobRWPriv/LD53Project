@@ -189,16 +189,16 @@ TextureImporter:
       - name: bone_1
         position: {x: 20.283531, y: 60.613556, z: 0}
         rotation: {x: 0, y: 0, z: -0.8144958, w: 0.58016956}
-        length: 14.722751
+        length: 14.722742
         parentId: -1
       - name: bone_2
-        position: {x: 14.722748, y: -0.0000001302692, z: 0}
-        rotation: {x: 0, y: 0, z: 0.07675418, w: 0.99705005}
-        length: 19.691511
+        position: {x: 14.722739, y: 0.00000008032089, z: 0}
+        rotation: {x: 0, y: 0, z: 0.07675458, w: 0.99705005}
+        length: 19.691515
         parentId: 0
       - name: bone_3
-        position: {x: 19.691511, y: 0.0000072982593, z: 0}
-        rotation: {x: 0, y: 0, z: -0.021183731, w: -0.99977565}
+        position: {x: 19.691515, y: -0.0000070211468, z: 0}
+        rotation: {x: 0, y: 0, z: -0.021183342, w: -0.99977565}
         length: 25.728642
         parentId: 1
       spriteID: 49b3ee9e3cb273200800000000000000
@@ -508,16 +508,16 @@ TextureImporter:
       - name: bone_1
         position: {x: 20.283531, y: 60.613556, z: 0}
         rotation: {x: 0, y: 0, z: -0.8144958, w: 0.58016956}
-        length: 14.722734
+        length: 14.722725
         parentId: -1
       - name: bone_2
-        position: {x: 14.722732, y: 0.00000029091098, z: 0}
-        rotation: {x: 0, y: 0, z: 0.07675418, w: 0.99705005}
-        length: 19.691534
+        position: {x: 14.722723, y: 0.00000050150106, z: 0}
+        rotation: {x: 0, y: 0, z: 0.07675458, w: 0.99705005}
+        length: 19.691538
         parentId: 0
       - name: bone_3
-        position: {x: 19.691536, y: 0.000007674377, z: 0}
-        rotation: {x: 0, y: 0, z: -0.021183653, w: -0.99977565}
+        position: {x: 19.691536, y: -0.000006508286, z: 0}
+        rotation: {x: 0, y: 0, z: -0.02118326, w: -0.99977565}
         length: 25.728642
         parentId: 1
       spriteID: c2bd0e478d4e31d80800000000000000
@@ -831,12 +831,12 @@ TextureImporter:
         parentId: -1
       - name: bone_2
         position: {x: 13.203974, y: 0.000000010136773, z: 0}
-        rotation: {x: 0, y: 0, z: -0.21917784, w: 0.97568494}
-        length: 21.106792
+        rotation: {x: 0, y: 0, z: -0.21917786, w: 0.97568494}
+        length: 21.106794
         parentId: 0
       - name: bone_3
-        position: {x: 21.106792, y: 0.00000061841513, z: 0}
-        rotation: {x: 0, y: 0, z: 0.04540123, w: -0.99896884}
+        position: {x: 21.106794, y: 0.0000018454281, z: 0}
+        rotation: {x: 0, y: 0, z: 0.04540118, w: -0.9989689}
         length: 25.550653
         parentId: 1
       spriteID: 0d7828d2ced1372e0800000000000000
@@ -1602,11 +1602,11 @@ TextureImporter:
       - name: bone_2
         position: {x: 6.198292, y: 0.0000017432004, z: 0}
         rotation: {x: 0, y: 0, z: 0.01819626, w: 0.9998345}
-        length: 20.323925
+        length: 20.323927
         parentId: 0
       - name: bone_3
-        position: {x: 20.323925, y: 0.000012924321, z: 0}
-        rotation: {x: 0, y: 0, z: 0.020137303, w: 0.9997973}
+        position: {x: 20.323927, y: 0.000012870385, z: 0}
+        rotation: {x: 0, y: 0, z: 0.020137249, w: 0.9997972}
         length: 23.61393
         parentId: 1
       spriteID: 5603c0e328a3a4630800000000000000
@@ -1764,8 +1764,8 @@ TextureImporter:
         boneIndex[1]: 1
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 1
-        weight[1]: 0
+      - weight[0]: 0.7
+        weight[1]: 0.3
         weight[2]: 0
         weight[3]: 0
         boneIndex[0]: 0
@@ -1892,12 +1892,12 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 1
-        weight[1]: 0
+      - weight[0]: 0.45999998
+        weight[1]: 0.54
         weight[2]: 0
         weight[3]: 0
         boneIndex[0]: 0
-        boneIndex[1]: 0
+        boneIndex[1]: 1
         boneIndex[2]: 0
         boneIndex[3]: 0
     - serializedVersion: 2
@@ -1917,17 +1917,17 @@ TextureImporter:
       bones:
       - name: bone_1
         position: {x: 35.7519, y: 38.52408, z: 0}
-        rotation: {x: 0, y: 0, z: -0.92698616, w: 0.37509558}
-        length: 6.1983
+        rotation: {x: 0, y: 0, z: 0.926986, w: -0.37509596}
+        length: 6.1982923
         parentId: -1
       - name: bone_2
-        position: {x: 6.198298, y: -0.0000005608772, z: 0}
-        rotation: {x: 0, y: 0, z: 0.018197076, w: 0.9998344}
-        length: 20.32393
+        position: {x: 6.1983047, y: -0.0000029554444, z: 0}
+        rotation: {x: 0, y: 0, z: 0.018196188, w: 0.9998345}
+        length: 20.323927
         parentId: 0
       - name: bone_3
-        position: {x: 20.32393, y: 0.000009011184, z: 0}
-        rotation: {x: 0, y: 0, z: -0.020136567, w: -0.9997973}
+        position: {x: 20.323952, y: 0.000026692604, z: 0}
+        rotation: {x: 0, y: 0, z: 0.020137027, w: 0.9997972}
         length: 23.61393
         parentId: 1
       spriteID: a7cb434078faf1fe0800000000000000
@@ -2045,8 +2045,8 @@ TextureImporter:
         boneIndex[1]: 2
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
-        weight[1]: 1
+      - weight[0]: 0.43
+        weight[1]: 0.57
         weight[2]: 0
         weight[3]: 0
         boneIndex[0]: 1
@@ -2085,8 +2085,8 @@ TextureImporter:
         boneIndex[1]: 1
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 1
-        weight[1]: 0
+      - weight[0]: 0.7
+        weight[1]: 0.3
         weight[2]: 0
         weight[3]: 0
         boneIndex[0]: 0
@@ -2213,12 +2213,12 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 1
-        weight[1]: 0
+      - weight[0]: 0.45999998
+        weight[1]: 0.54
         weight[2]: 0
         weight[3]: 0
         boneIndex[0]: 0
-        boneIndex[1]: 0
+        boneIndex[1]: 1
         boneIndex[2]: 0
         boneIndex[3]: 0
     - serializedVersion: 2
@@ -2248,7 +2248,7 @@ TextureImporter:
         parentId: 0
       - name: bone_3
         position: {x: 14.273673, y: -0.0000000596342, z: 0}
-        rotation: {x: 0, y: 0, z: 0.088404484, w: 0.9960847}
+        rotation: {x: 0, y: 0, z: 0.08840453, w: 0.9960847}
         length: 18.754883
         parentId: 1
       spriteID: 563f1155b42cf70e0800000000000000
@@ -2459,8 +2459,8 @@ TextureImporter:
         boneIndex[1]: 2
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0.6609991
-        weight[1]: 0.29656643
+      - weight[0]: 0.66099906
+        weight[1]: 0.2965664
         weight[2]: 0.04243452
         weight[3]: 0
         boneIndex[0]: 2
@@ -2558,7 +2558,7 @@ TextureImporter:
         parentId: 0
       - name: bone_3
         position: {x: 14.273661, y: 0.0000016606798, z: 0}
-        rotation: {x: 0, y: 0, z: -0.088404775, w: -0.9960847}
+        rotation: {x: 0, y: 0, z: -0.08840475, w: -0.99608463}
         length: 18.754883
         parentId: 1
       spriteID: c53c63a4b4fa1dfe0800000000000000
@@ -2769,8 +2769,8 @@ TextureImporter:
         boneIndex[1]: 2
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0.66099906
-        weight[1]: 0.2965664
+      - weight[0]: 0.6609991
+        weight[1]: 0.29656643
         weight[2]: 0.04243452
         weight[3]: 0
         boneIndex[0]: 2
@@ -3052,7 +3052,7 @@ TextureImporter:
         parentId: -1
       - name: bone_2
         position: {x: 33.42518, y: -0.0000042614624, z: 0}
-        rotation: {x: 0, y: 0, z: 0.048575744, w: 0.9988196}
+        rotation: {x: 0, y: 0, z: 0.048575703, w: 0.9988196}
         length: 38.201786
         parentId: 0
       spriteID: 7b833a2e4ffd24600800000000000000
@@ -3500,10 +3500,10 @@ TextureImporter:
       - name: bone_1
         position: {x: 55.2341, y: 2.7413635, z: 0}
         rotation: {x: 0, y: 0, z: 0.9225167, w: 0.3859572}
-        length: 33.425198
+        length: 33.425182
         parentId: -1
       - name: bone_2
-        position: {x: 33.42519, y: -0.0000014299367, z: 0}
+        position: {x: 33.42518, y: -0.0000069011185, z: 0}
         rotation: {x: 0, y: 0, z: 0.048575815, w: 0.99881953}
         length: 38.201786
         parentId: 0
@@ -3951,12 +3951,12 @@ TextureImporter:
       bones:
       - name: bone_1
         position: {x: 3.1861572, y: 5.213562, z: 0}
-        rotation: {x: 0, y: 0, z: 0.21323065, w: 0.9770019}
-        length: 15.303783
+        rotation: {x: 0, y: 0, z: 0.21323095, w: 0.97700185}
+        length: 15.303793
         parentId: -1
       - name: bone_2
-        position: {x: 15.303794, y: 0.000009180803, z: 0}
-        rotation: {x: 0, y: 0, z: -0.08387021, w: 0.9964767}
+        position: {x: 15.303793, y: -0.0000005739452, z: 0}
+        rotation: {x: 0, y: 0, z: -0.08387052, w: 0.9964767}
         length: 18.363823
         parentId: 0
       spriteID: f4842de3fc10c7c50800000000000000
@@ -4255,12 +4255,12 @@ TextureImporter:
       bones:
       - name: bone_1
         position: {x: 3.1861572, y: 5.213562, z: 0}
-        rotation: {x: 0, y: 0, z: 0.21323095, w: 0.97700185}
-        length: 15.303793
+        rotation: {x: 0, y: 0, z: 0.21323039, w: 0.97700197}
+        length: 15.303777
         parentId: -1
       - name: bone_2
-        position: {x: 15.303773, y: -0.000017750623, z: 0}
-        rotation: {x: 0, y: 0, z: -0.0838705, w: 0.99647665}
+        position: {x: 15.303776, y: -0.00000036370136, z: 0}
+        rotation: {x: 0, y: 0, z: -0.08386995, w: 0.99647677}
         length: 18.363823
         parentId: 0
       spriteID: 58581dd5c28952de0800000000000000
