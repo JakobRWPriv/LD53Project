@@ -11,6 +11,8 @@ TagManager:
   - DoorGoal0
   - EnemyInstaKill
   - DoorGoal1
+  - DoorGoal2
+  - DoorGoal3
   layers:
   - Default
   - TransparentFX

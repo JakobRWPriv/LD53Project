@@ -760,6 +760,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &89338645
 GameObject:
   m_ObjectHideFlags: 0
@@ -1025,6 +1026,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &101135264
 GameObject:
   m_ObjectHideFlags: 0
@@ -1345,6 +1347,7 @@ MonoBehaviour:
   multFactorX: 1.02
   multFactorY: 1.02
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!114 &177746366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1473,6 +1476,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!114 &178635765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1760,6 +1764,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &215969227
 GameObject:
   m_ObjectHideFlags: 0
@@ -1922,6 +1927,7 @@ MonoBehaviour:
   multFactorX: 1.03
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &221688667
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2138,6 +2144,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &271681649
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2404,6 +2411,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!114 &288654239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2798,6 +2806,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!114 &353849893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2816,8 +2825,8 @@ MonoBehaviour:
   - {fileID: 1286606646}
   - {fileID: 612725846}
   m_Bounds:
-    m_Center: {x: -0.0066599846, y: 0.00000023841858, z: 0}
-    m_Extent: {x: 0.16834003, y: 0.44500005, z: 0}
+    m_Center: {x: -0.0066599846, y: -0.00000011920929, z: 0}
+    m_Extent: {x: 0.16834003, y: 0.44500017, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &353853107
@@ -2954,6 +2963,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &361578372
 GameObject:
   m_ObjectHideFlags: 0
@@ -3004,6 +3014,7 @@ MonoBehaviour:
   multFactorX: 1.005
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &361578375
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3135,6 +3146,7 @@ MonoBehaviour:
   multFactorX: 1
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &364420173
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3571,6 +3583,7 @@ MonoBehaviour:
   targetPoint: {fileID: 0}
   canMove: 0
   speed: 3
+  startDelay: 0
 --- !u!1 &409065116
 GameObject:
   m_ObjectHideFlags: 0
@@ -3621,6 +3634,7 @@ MonoBehaviour:
   multFactorX: 1
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &409065119
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3832,6 +3846,7 @@ MonoBehaviour:
   multFactorX: 1.02
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!114 &462849763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4327,6 +4342,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &481544371
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5357,8 +5373,8 @@ MonoBehaviour:
   - {fileID: 590309272}
   - {fileID: 2063561779}
   m_Bounds:
-    m_Center: {x: 0.001927644, y: 0.013958976, z: 0}
-    m_Extent: {x: 0.19862449, y: 0.21499991, z: 0}
+    m_Center: {x: 0.0019283593, y: 0.013958737, z: 0}
+    m_Extent: {x: 0.19862473, y: 0.21499991, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &602511805
@@ -5574,6 +5590,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &624602181
 GameObject:
   m_ObjectHideFlags: 0
@@ -5754,6 +5771,7 @@ MonoBehaviour:
   multFactorX: 1.02
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!114 &669975877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5937,6 +5955,7 @@ MonoBehaviour:
   multFactorX: 1.03
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &673827791
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6119,6 +6138,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &693583938
 GameObject:
   m_ObjectHideFlags: 0
@@ -7075,6 +7095,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!114 &839981511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7309,6 +7330,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &844111274
 GameObject:
   m_ObjectHideFlags: 0
@@ -7487,8 +7509,8 @@ MonoBehaviour:
   - {fileID: 1823947171}
   - {fileID: 679958935}
   m_Bounds:
-    m_Center: {x: -0.019793019, y: -0.023683578, z: 0}
-    m_Extent: {x: 0.17500007, y: 0.42776024, z: 0}
+    m_Center: {x: -0.019793034, y: -0.023683459, z: 0}
+    m_Extent: {x: 0.17500052, y: 0.42776012, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &862941734
@@ -7717,6 +7739,7 @@ MonoBehaviour:
   multFactorX: 1.03
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &883805522
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8065,6 +8088,7 @@ MonoBehaviour:
   multFactorX: 1.03
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &909477031
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8237,8 +8261,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 941744211}
+  - component: {fileID: 941744212}
   m_Layer: 0
-  m_Name: AudioManagerMAKEINSTANCE
+  m_Name: AudioManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8259,6 +8284,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &941744212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941744210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50123a99c4568ca43b423bb830bae65b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioObj: {fileID: 0}
+  audioObjParent: {fileID: 0}
+  Grab: {fileID: 0}
+  GrabSuccess: {fileID: 0}
+  Throw: {fileID: 0}
+  Dash: {fileID: 0}
+  IntoWheelbarrow: {fileID: 0}
+  FarmerStep: {fileID: 0}
+  Activate: {fileID: 0}
+  Shoot: {fileID: 0}
+  DropHit: {fileID: 0}
+  Die: {fileID: 0}
+  Die2: {fileID: 0}
 --- !u!1 &942264277
 GameObject:
   m_ObjectHideFlags: 0
@@ -8448,6 +8498,7 @@ MonoBehaviour:
   multFactorX: 1.02
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &949544309
 GameObject:
   m_ObjectHideFlags: 0
@@ -8883,6 +8934,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1023742430
 GameObject:
   m_ObjectHideFlags: 0
@@ -9070,6 +9122,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1040930065
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9222,6 +9275,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1051861086
 GameObject:
   m_ObjectHideFlags: 0
@@ -10172,6 +10226,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1199182636
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10394,6 +10449,7 @@ MonoBehaviour:
   multFactorX: 1.02
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!114 &1239696992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10577,6 +10633,7 @@ MonoBehaviour:
   multFactorX: 1.03
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1246384692
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10678,6 +10735,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1253462700
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10940,6 +10998,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1316223018
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11618,7 +11677,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1425063625}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.58, y: -2.9900002, z: 0}
+  m_LocalPosition: {x: -7.91, y: -3.11, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 610968936}
@@ -11650,6 +11709,8 @@ MonoBehaviour:
   isFacingRight: 0
   groundTrigger: {fileID: 1108623329}
   hasDied: 0
+  hasKey: 0
+  hasKeyUIObject: {fileID: 0}
   canDash: 1
   isDashing: 0
   haltDash: 0
@@ -11767,6 +11828,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!114 &1428914154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12001,7 +12063,7 @@ MonoBehaviour:
   - {fileID: 1597022168}
   - {fileID: 901223062}
   m_Bounds:
-    m_Center: {x: 0.0024475902, y: 0.026438579, z: 0}
+    m_Center: {x: 0.0024475902, y: 0.02643834, z: 0}
     m_Extent: {x: 0.20997155, y: 0.17422843, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -12055,6 +12117,7 @@ MonoBehaviour:
   multFactorX: 1.03
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1437712370
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12156,6 +12219,7 @@ MonoBehaviour:
   multFactorX: 1
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1455345513
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12309,6 +12373,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1461680172
 GameObject:
   m_ObjectHideFlags: 0
@@ -12359,6 +12424,7 @@ MonoBehaviour:
   multFactorX: 1
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1461680175
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12582,6 +12648,7 @@ MonoBehaviour:
   targetPoint: {fileID: 0}
   canMove: 0
   speed: 1
+  startDelay: 0
 --- !u!1 &1519945172
 GameObject:
   m_ObjectHideFlags: 0
@@ -12887,7 +12954,7 @@ MonoBehaviour:
   - {fileID: 612725846}
   m_Bounds:
     m_Center: {x: 0.03937854, y: -0.0074041486, z: 0}
-    m_Extent: {x: 0.19162728, y: 0.4444043, z: 0}
+    m_Extent: {x: 0.19162728, y: 0.44440454, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &1552634514
@@ -13057,6 +13124,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!114 &1554264735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13075,8 +13143,8 @@ MonoBehaviour:
   - {fileID: 1823947171}
   - {fileID: 679958935}
   m_Bounds:
-    m_Center: {x: 0, y: 0.0022399127, z: 0}
-    m_Extent: {x: 0.17500007, y: 0.42776024, z: 0}
+    m_Center: {x: 0.00000047683716, y: 0.002240032, z: 0}
+    m_Extent: {x: 0.17500055, y: 0.42776012, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &1559271977
@@ -13129,6 +13197,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1559271980
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13809,6 +13878,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1670764906
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13988,6 +14058,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1701182423
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14141,6 +14212,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1711378518
 GameObject:
   m_ObjectHideFlags: 0
@@ -14242,6 +14314,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1725282896
 GameObject:
   m_ObjectHideFlags: 0
@@ -14374,6 +14447,7 @@ MonoBehaviour:
   multFactorX: 1.03
   multFactorY: 1.03
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1733129084
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14559,6 +14633,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1752169034
 GameObject:
   m_ObjectHideFlags: 0
@@ -14886,6 +14961,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1797083923
 GameObject:
   m_ObjectHideFlags: 0
@@ -14936,6 +15012,7 @@ MonoBehaviour:
   multFactorX: 1.03
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1797083926
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15163,6 +15240,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1804534580
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15363,6 +15441,7 @@ MonoBehaviour:
   multFactorX: 1.03
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1820167459
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15792,6 +15871,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1834216710
 GameObject:
   m_ObjectHideFlags: 0
@@ -15924,6 +16004,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1842632417
 GameObject:
   m_ObjectHideFlags: 0
@@ -16025,6 +16106,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1849810708
 GameObject:
   m_ObjectHideFlags: 0
@@ -16311,6 +16393,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1879201828
 GameObject:
   m_ObjectHideFlags: 0
@@ -16495,6 +16578,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1885558153
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16596,6 +16680,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1921769170
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16697,6 +16782,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1927153476
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16988,6 +17074,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1970216335
 GameObject:
   m_ObjectHideFlags: 0
@@ -17477,6 +17564,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &2028621784
 GameObject:
   m_ObjectHideFlags: 0
@@ -17642,6 +17730,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &2051162290
 GameObject:
   m_ObjectHideFlags: 0
@@ -17924,6 +18013,7 @@ MonoBehaviour:
   multFactorX: 1.03
   multFactorY: 1.03
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &2073978076
 GameObject:
   m_ObjectHideFlags: 0
@@ -18140,6 +18230,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &2079028162
 GameObject:
   m_ObjectHideFlags: 0
@@ -18175,7 +18266,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.88, y: 26.94}
+  m_AnchoredPosition: {x: -7.88, y: 26.469982}
   m_SizeDelta: {x: 7.6, y: 3.4411}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2079028164
@@ -18196,6 +18287,7 @@ MonoBehaviour:
   multFactorX: 1.02
   multFactorY: 1.02
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!114 &2079028165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18216,11 +18308,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'ENTER DOOR - UP
-
-    GOOD LUCK
-
-    CURSED ONE'
+  m_text: ENTER DOOR - UP
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 20e2e4ce0879e0747b11de5859ef707a, type: 2}
   m_sharedMaterial: {fileID: 8254671570090980549, guid: 20e2e4ce0879e0747b11de5859ef707a, type: 2}
@@ -18518,6 +18606,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!114 &2093984633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18536,8 +18625,8 @@ MonoBehaviour:
   - {fileID: 590309272}
   - {fileID: 2063561779}
   m_Bounds:
-    m_Center: {x: -0.100072265, y: -0.110041276, z: 0}
-    m_Extent: {x: 0.19862482, y: 0.21499999, z: 0}
+    m_Center: {x: -0.100072265, y: -0.110041395, z: 0}
+    m_Extent: {x: 0.19862434, y: 0.21500011, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &2096257282

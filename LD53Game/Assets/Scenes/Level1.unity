@@ -204,6 +204,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &3233857
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -920,6 +921,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &81982185
 GameObject:
   m_ObjectHideFlags: 0
@@ -1054,6 +1056,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &97994086
 GameObject:
   m_ObjectHideFlags: 0
@@ -1374,6 +1377,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &116335068
 GameObject:
   m_ObjectHideFlags: 0
@@ -1679,6 +1683,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &170796917
 GameObject:
   m_ObjectHideFlags: 0
@@ -1814,6 +1819,7 @@ MonoBehaviour:
   multFactorX: 1.02
   multFactorY: 1.02
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!114 &177746366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1942,6 +1948,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!114 &178635765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2065,6 +2072,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &192452852
 GameObject:
   m_ObjectHideFlags: 0
@@ -2468,6 +2476,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &215969227
 GameObject:
   m_ObjectHideFlags: 0
@@ -2630,6 +2639,7 @@ MonoBehaviour:
   multFactorX: 1.03
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &221688667
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3263,6 +3273,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!114 &288654239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3522,6 +3533,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &301863053
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3655,6 +3667,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &320068408
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4005,6 +4018,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!114 &353849893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4140,6 +4154,7 @@ MonoBehaviour:
   multFactorX: 1
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &364420173
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4826,6 +4841,7 @@ MonoBehaviour:
   multFactorX: 1
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &409065119
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5468,6 +5484,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &479904852
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5620,6 +5637,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &484712592
 GameObject:
   m_ObjectHideFlags: 0
@@ -6586,6 +6604,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &553975732
 GameObject:
   m_ObjectHideFlags: 0
@@ -6928,6 +6947,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &572156053
 GameObject:
   m_ObjectHideFlags: 0
@@ -7111,6 +7131,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &578671276
 GameObject:
   m_ObjectHideFlags: 0
@@ -7990,6 +8011,7 @@ MonoBehaviour:
   multFactorX: 1.03
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &673827791
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8203,6 +8225,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &699269313
 GameObject:
   m_ObjectHideFlags: 0
@@ -8655,6 +8678,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &746558543
 GameObject:
   m_ObjectHideFlags: 0
@@ -9509,6 +9533,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &826229135
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9820,6 +9845,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &844111274
 GameObject:
   m_ObjectHideFlags: 0
@@ -10103,6 +10129,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &864768840
 GameObject:
   m_ObjectHideFlags: 0
@@ -10485,6 +10512,7 @@ MonoBehaviour:
   multFactorX: 1.03
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &883805522
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10701,6 +10729,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &892722854
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10940,6 +10969,7 @@ MonoBehaviour:
   multFactorX: 1.03
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &909477031
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11256,6 +11286,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &938237174
 GameObject:
   m_ObjectHideFlags: 0
@@ -11391,8 +11422,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1977505090}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11585,6 +11615,7 @@ MonoBehaviour:
   multFactorX: 1.02
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &945116034
 GameObject:
   m_ObjectHideFlags: 0
@@ -12119,6 +12150,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1016776366
 GameObject:
   m_ObjectHideFlags: 0
@@ -12169,6 +12201,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1016776369
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12393,6 +12426,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1020896905
 GameObject:
   m_ObjectHideFlags: 0
@@ -12662,6 +12696,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1040930065
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12814,6 +12849,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1049612039
 GameObject:
   m_ObjectHideFlags: 0
@@ -13386,6 +13422,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1103498941
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13808,6 +13845,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1128593050
 GameObject:
   m_ObjectHideFlags: 0
@@ -13968,6 +14006,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1142227288
 GameObject:
   m_ObjectHideFlags: 0
@@ -14373,6 +14412,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1157166256
 GameObject:
   m_ObjectHideFlags: 0
@@ -14423,6 +14463,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1157166259
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14633,6 +14674,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1159221706
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14846,6 +14888,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1196589717
 GameObject:
   m_ObjectHideFlags: 0
@@ -15170,6 +15213,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1235143474
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15445,6 +15489,7 @@ MonoBehaviour:
   multFactorX: 1.03
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1246384692
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15654,6 +15699,7 @@ MonoBehaviour:
   multFactorX: 1
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1271527676
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15755,6 +15801,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1277959049
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16268,6 +16315,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1313151190
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16369,6 +16417,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1317345076
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16610,6 +16659,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1328048078
 GameObject:
   m_ObjectHideFlags: 0
@@ -16722,6 +16772,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1332749304
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17120,6 +17171,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1363633787
 GameObject:
   m_ObjectHideFlags: 0
@@ -17170,6 +17222,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1363633790
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17271,6 +17324,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1364682015
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17507,6 +17561,7 @@ MonoBehaviour:
   multFactorX: 1.02
   multFactorY: 1.02
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1385953774
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17891,6 +17946,8 @@ MonoBehaviour:
   isFacingRight: 0
   groundTrigger: {fileID: 1108623329}
   hasDied: 0
+  hasKey: 0
+  hasKeyUIObject: {fileID: 0}
   canDash: 1
   isDashing: 0
   haltDash: 0
@@ -18231,6 +18288,7 @@ MonoBehaviour:
   multFactorX: 1.03
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1437712370
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18447,6 +18505,7 @@ MonoBehaviour:
   multFactorX: 1
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1455345513
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18600,6 +18659,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1469767340
 GameObject:
   m_ObjectHideFlags: 0
@@ -19170,6 +19230,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1519945172
 GameObject:
   m_ObjectHideFlags: 0
@@ -19272,6 +19333,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1530444586
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19718,6 +19780,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!114 &1554264735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19790,6 +19853,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1559271980
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19973,6 +20037,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1581833088
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20189,6 +20254,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1589678357
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20321,6 +20387,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1597292303
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20422,6 +20489,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1597476790
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21089,6 +21157,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1619881996
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21608,6 +21677,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1712023025
 GameObject:
   m_ObjectHideFlags: 0
@@ -21903,6 +21973,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1729589984
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22004,6 +22075,7 @@ MonoBehaviour:
   multFactorX: 1.03
   multFactorY: 1.03
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1733129084
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22156,6 +22228,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1752169034
 GameObject:
   m_ObjectHideFlags: 0
@@ -22643,6 +22716,7 @@ MonoBehaviour:
   multFactorX: 1.03
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1797083926
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22964,6 +23038,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1809911173
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23096,6 +23171,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1816223385
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23197,6 +23273,7 @@ MonoBehaviour:
   multFactorX: 1.03
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1820167459
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23602,6 +23679,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1835217424
 GameObject:
   m_ObjectHideFlags: 0
@@ -23652,6 +23730,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1835797344
 GameObject:
   m_ObjectHideFlags: 0
@@ -23753,6 +23832,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1844454633
 GameObject:
   m_ObjectHideFlags: 0
@@ -24264,6 +24344,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1871496679
 GameObject:
   m_ObjectHideFlags: 0
@@ -24494,6 +24575,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1921769167
 GameObject:
   m_ObjectHideFlags: 0
@@ -24544,6 +24626,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1921769170
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25064,6 +25147,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &1958209143
 GameObject:
   m_ObjectHideFlags: 0
@@ -25173,6 +25257,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &1961931193
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25370,133 +25455,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1977505089
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1977505090}
-  - component: {fileID: 1977505091}
-  m_Layer: 0
-  m_Name: Music
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1977505090
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1977505089}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 941744211}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &1977505091
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1977505089}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: abe58b1dffc37d148871a51e413853eb, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &1989483837
 GameObject:
   m_ObjectHideFlags: 0
@@ -26236,6 +26194,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &2051162290
 GameObject:
   m_ObjectHideFlags: 0
@@ -26368,6 +26327,7 @@ MonoBehaviour:
   multFactorX: 1.05
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &2052935517
 GameObject:
   m_ObjectHideFlags: 0
@@ -26701,6 +26661,7 @@ MonoBehaviour:
   multFactorX: 1.03
   multFactorY: 1.03
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &2073401287
 GameObject:
   m_ObjectHideFlags: 0
@@ -26999,6 +26960,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!1 &2079810432
 GameObject:
   m_ObjectHideFlags: 0
@@ -27213,6 +27175,7 @@ MonoBehaviour:
   multFactorX: 1.01
   multFactorY: 1.05
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!212 &2091741868
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27367,6 +27330,7 @@ MonoBehaviour:
   multFactorX: 1.1
   multFactorY: 1.1
   timeToReach: 0
+  squiggleTime: 0.1
 --- !u!114 &2093984633
 MonoBehaviour:
   m_ObjectHideFlags: 0

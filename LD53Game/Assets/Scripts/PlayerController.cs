@@ -295,6 +295,14 @@ public class PlayerController : MonoBehaviour
             isLoadingLevel = true;
             StartCoroutine(LoadLevel(1));
         }
+        if (Input.GetKey(KeyCode.UpArrow) && isGrounded && !isLoadingLevel && otherCollider.tag == "DoorGoal1") {
+            isLoadingLevel = true;
+            StartCoroutine(LoadLevel(2));
+        }
+        if (Input.GetKey(KeyCode.UpArrow) && isGrounded && !isLoadingLevel && otherCollider.tag == "DoorGoal2") {
+            isLoadingLevel = true;
+            StartCoroutine(LoadLevel(3));
+        }
     }
 
     void OnTriggerExit2D(Collider2D otherCollider) {
