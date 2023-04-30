@@ -316,6 +316,7 @@ public class PlayerController : MonoBehaviour
         cannotMove = true;
         rb2d.gravityScale = 0;
         rb2d.velocity = Vector2.zero;
+        animator.SetBool("IsDying", true);
         StartCoroutine(DieCo());
     }
 
@@ -329,6 +330,7 @@ public class PlayerController : MonoBehaviour
             transform.position = startPos;
             cameraTransform.position = startPos;
         }
+        animator.SetBool("IsDying", false);
         yield return new WaitForSeconds(0.5f);
         screenWipeAnimator.SetTrigger("ScreenWipeOpen");
         hasDied = false;
