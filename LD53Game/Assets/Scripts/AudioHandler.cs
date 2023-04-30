@@ -11,28 +11,15 @@ public class AudioHandler : MonoBehaviour {
 
     [Space]
     [Header("Player")]
-    public AudioClip Grab;
-    public AudioClip GrabSuccess;
-    public AudioClip Throw;
+    public AudioClip Land;
+    public AudioClip Jump;
     public AudioClip Dash;
-    public AudioClip IntoWheelbarrow;
-
-    // AUDIO OBJ DÄR NERE UTKOMMENTERAD AUDIO OBJ DÄR NERE UTKOMMENTERAD AUDIO OBJ DÄR NERE UTKOMMENTERAD AUDIO OBJ DÄR NERE UTKOMMENTERAD 
-    // AUDIO OBJ DÄR NERE UTKOMMENTERAD AUDIO OBJ DÄR NERE UTKOMMENTERAD AUDIO OBJ DÄR NERE UTKOMMENTERAD AUDIO OBJ DÄR NERE UTKOMMENTERAD 
-    // AUDIO OBJ DÄR NERE UTKOMMENTERAD AUDIO OBJ DÄR NERE UTKOMMENTERAD AUDIO OBJ DÄR NERE UTKOMMENTERAD AUDIO OBJ DÄR NERE UTKOMMENTERAD 
-    // AUDIO OBJ DÄR NERE UTKOMMENTERAD AUDIO OBJ DÄR NERE UTKOMMENTERAD AUDIO OBJ DÄR NERE UTKOMMENTERAD AUDIO OBJ DÄR NERE UTKOMMENTERAD 
-
-    [Space]
-    [Header("Farmer")]
-    public AudioClip FarmerStep;
+    public AudioClip Bounce;
+    public AudioClip Die;
 
     [Space]
     [Header("Enemy")]
-    public AudioClip Activate;
-    public AudioClip Shoot;
-    public AudioClip DropHit;
-    public AudioClip Die;
-    public AudioClip Die2;
+    public AudioClip EnemyDie;
 
     
     #region Singleton
@@ -68,9 +55,9 @@ public class AudioHandler : MonoBehaviour {
         GameObject InstantiatedAudioObj = Instantiate(audioObj);
         InstantiatedAudioObj.transform.SetParent(audioObjParent);
         if (delay == 0) {
-            //InstantiatedAudioObj.GetComponent<AudioObj>().PlaySound(sound, volume, pitch);
+            InstantiatedAudioObj.GetComponent<AudioObj>().PlaySound(sound, volume, pitch);
         } else {
-            //InstantiatedAudioObj.GetComponent<AudioObj>().PlaySoundDelayed(delay, sound, volume, pitch);
+            InstantiatedAudioObj.GetComponent<AudioObj>().PlaySoundDelayed(delay, sound, volume, pitch);
         }
     }
 }

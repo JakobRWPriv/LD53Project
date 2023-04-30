@@ -68,7 +68,7 @@ public class PlayerController : MonoBehaviour
             hasLanded = true;
             canDash = true;
             squishAnimator.SetTrigger("SquishDown");
-            //AudioHandler.Instance.PlaySound(AudioHandler.Instance.playerLand, 0.6f, Random.Range(0.95f, 1.2f));
+            AudioHandler.Instance.PlaySound(AudioHandler.Instance.Land, 0.5f, Random.Range(0.7f, 0.9f));
         }
 
         if (!isDashing && !cannotMove) {
@@ -93,7 +93,7 @@ public class PlayerController : MonoBehaviour
             if (isGrounded) {
                 rb2d.velocity += new Vector2(0, jumpPower);
                 squishAnimator.SetTrigger("SquishJump");
-                //AudioHandler.Instance.PlaySound(AudioHandler.Instance.playerJump, 0.6f, Random.Range(0.7f, 0.75f));
+                AudioHandler.Instance.PlaySound(AudioHandler.Instance.Jump, 0.4f, Random.Range(0.9f, 1.1f));
             }
         }
 
@@ -107,6 +107,7 @@ public class PlayerController : MonoBehaviour
         if (!canDash) return;
 
         if (Input.GetKeyDown(KeyCode.X)) {
+            AudioHandler.Instance.PlaySound(AudioHandler.Instance.Dash, 0.4f, Random.Range(1.2f, 1.3f));
             dashAttackCollider.enabled = true;
             squishAnimator.SetTrigger("SquishDashStart");
             canDash = false;
@@ -317,6 +318,7 @@ public class PlayerController : MonoBehaviour
         rb2d.gravityScale = 0;
         rb2d.velocity = Vector2.zero;
         animator.SetBool("IsDying", true);
+        AudioHandler.Instance.PlaySound(AudioHandler.Instance.Die, 0.6f, Random.Range(0.9f, 1.1f));
         StartCoroutine(DieCo());
     }
 

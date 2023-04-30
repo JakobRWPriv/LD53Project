@@ -15,6 +15,7 @@ public class GhostEnemy : MonoBehaviour
     }
 
     public void TakeDamage() {
+        AudioHandler.Instance.PlaySound(AudioHandler.Instance.Bounce, 0.5f, Random.Range(1.2f, 1.3f));
         player.DashAttackHit();
         squishAnimator.SetTrigger("Squish");
 

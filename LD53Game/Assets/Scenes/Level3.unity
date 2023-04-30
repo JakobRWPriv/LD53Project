@@ -13732,6 +13732,7 @@ MonoBehaviour:
   playerInFront: 0
   frontCollider: {fileID: 1361580030}
   animator: {fileID: 1910980191}
+  deathParticles: {fileID: 9044706309069555741, guid: f43bd20b1281bfd45a719f70e7ded43d, type: 3}
 --- !u!61 &392932295
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18023,7 +18024,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aac626cd39dd8f541b024eda8b29089a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 87271584}
   yOffset: 0.1
   minXClamp: -1.5
   maxXClamp: 22.2
@@ -19564,6 +19565,7 @@ MonoBehaviour:
   playerInFront: 0
   frontCollider: {fileID: 602524290}
   animator: {fileID: 1570644512}
+  deathParticles: {fileID: 9044706309069555741, guid: f43bd20b1281bfd45a719f70e7ded43d, type: 3}
 --- !u!61 &572984501
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -55093,6 +55095,7 @@ MonoBehaviour:
   playerInFront: 0
   frontCollider: {fileID: 1883459664}
   animator: {fileID: 1113710957}
+  deathParticles: {fileID: 9044706309069555741, guid: f43bd20b1281bfd45a719f70e7ded43d, type: 3}
 --- !u!1 &1683587657
 GameObject:
   m_ObjectHideFlags: 0
@@ -67098,6 +67101,7 @@ MonoBehaviour:
   playerInFront: 0
   frontCollider: {fileID: 925701734}
   animator: {fileID: 20486679}
+  deathParticles: {fileID: 9044706309069555741, guid: f43bd20b1281bfd45a719f70e7ded43d, type: 3}
 --- !u!61 &2033497590
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -10,6 +10,7 @@ public class Enemy1Script : Enemy
     public bool playerInFront;
     public Collider2D frontCollider;
     public Animator animator;
+    public GameObject deathParticles;
 
     void Start()
     {
@@ -52,6 +53,9 @@ public class Enemy1Script : Enemy
             tutorialText.SetActive(true);
         }
 
+        AudioHandler.Instance.PlaySound(AudioHandler.Instance.EnemyDie, 0.8f, 1.2f);
+        AudioHandler.Instance.PlaySound(AudioHandler.Instance.EnemyDie, 0.8f, 0.8f);
+        Instantiate(deathParticles, transform.position, deathParticles.transform.rotation);
         Destroy(gameObject);
     }
 }
