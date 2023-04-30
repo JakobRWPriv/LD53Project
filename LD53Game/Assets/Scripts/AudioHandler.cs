@@ -16,6 +16,8 @@ public class AudioHandler : MonoBehaviour {
     public AudioClip Dash;
     public AudioClip Bounce;
     public AudioClip Die;
+    public AudioClip KeyGet;
+    public AudioClip KeyUnlock;
 
     [Space]
     [Header("Enemy")]

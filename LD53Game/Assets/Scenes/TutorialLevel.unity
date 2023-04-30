@@ -6648,6 +6648,8 @@ MonoBehaviour:
   Dash: {fileID: 8300000, guid: f4dfa4d6869056d458380e0cb14c4b3a, type: 3}
   Bounce: {fileID: 8300000, guid: c3cdb27e193de8f468290da7defda657, type: 3}
   Die: {fileID: 8300000, guid: 659b6754580bed249823470297a573c7, type: 3}
+  KeyGet: {fileID: 8300000, guid: 02464f1335822ff4fbb3adfd76bbef9e, type: 3}
+  KeyUnlock: {fileID: 8300000, guid: 054c27432535ab541b490e7a13c619e7, type: 3}
   EnemyDie: {fileID: 8300000, guid: 52d9a640bd6560145ba62cc29b896508, type: 3}
 --- !u!1 &942264277
 GameObject:

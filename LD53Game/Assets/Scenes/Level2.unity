@@ -9891,6 +9891,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerController: {fileID: 1425063627}
+  unlockParticles: {fileID: 5686601372037827813, guid: e1836b238a3b40c47841359ebe7d65df, type: 3}
 --- !u!61 &478307177
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10897,7 +10898,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.0100007, y: 31.388002, z: -10}
+  m_LocalPosition: {x: -1.6099987, y: 0.82800364, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -13028,7 +13029,7 @@ Transform:
   m_Children:
   - {fileID: 34672153}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &614553192
 GameObject:
@@ -13837,7 +13838,7 @@ Transform:
   m_Children:
   - {fileID: 1307564840}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &660239935
 GameObject:
@@ -19460,7 +19461,7 @@ Transform:
   - {fileID: 144490154}
   - {fileID: 1868825620}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &883805519
 GameObject:
@@ -20563,36 +20564,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.9
---- !u!1 &941744210
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 941744211}
-  m_Layer: 0
-  m_Name: AudioManagerMAKEINSTANCE
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &941744211
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 941744210}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &942264277
 GameObject:
   m_ObjectHideFlags: 0
@@ -22163,6 +22134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1425063627}
+  keyGetParticles: {fileID: 5335650122934289077, guid: 52c92f04595308b4f807d734068a5ed1, type: 3}
 --- !u!1 &1005304128
 GameObject:
   m_ObjectHideFlags: 0
@@ -26303,6 +26275,8 @@ MonoBehaviour:
   Dash: {fileID: 8300000, guid: f4dfa4d6869056d458380e0cb14c4b3a, type: 3}
   Bounce: {fileID: 8300000, guid: c3cdb27e193de8f468290da7defda657, type: 3}
   Die: {fileID: 8300000, guid: 659b6754580bed249823470297a573c7, type: 3}
+  KeyGet: {fileID: 8300000, guid: 02464f1335822ff4fbb3adfd76bbef9e, type: 3}
+  KeyUnlock: {fileID: 8300000, guid: 054c27432535ab541b490e7a13c619e7, type: 3}
   EnemyDie: {fileID: 8300000, guid: 52d9a640bd6560145ba62cc29b896508, type: 3}
 --- !u!4 &1209848113
 Transform:
@@ -26318,7 +26292,7 @@ Transform:
   - {fileID: 1131551884}
   - {fileID: 1962872091}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1216095762
 GameObject:
@@ -26579,7 +26553,7 @@ Transform:
   m_Children:
   - {fileID: 478307174}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1230861216
 GameObject:
@@ -26782,7 +26756,7 @@ Transform:
   - {fileID: 503077373}
   - {fileID: 1276639616}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1241205367
 GameObject:
@@ -27490,7 +27464,7 @@ Transform:
   - {fileID: 1797936536}
   - {fileID: 1743729115}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1278770876
 GameObject:
@@ -30258,7 +30232,7 @@ RectTransform:
   - {fileID: 821184168}
   - {fileID: 1379510796}
   m_Father: {fileID: 2134544841}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -36234,7 +36208,7 @@ RectTransform:
   - {fileID: 1528881903}
   - {fileID: 1427114955}
   m_Father: {fileID: 2134544841}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -37394,7 +37368,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1806852967
 GameObject:
@@ -41122,7 +41096,7 @@ Transform:
   - {fileID: 256594651}
   - {fileID: 1424365721}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1973842516
 GameObject:
@@ -44440,7 +44414,7 @@ Transform:
   m_Children:
   - {fileID: 1001924563}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2085387451
 GameObject:
@@ -45473,8 +45447,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 1387323714}
   - {fileID: 1752310414}
+  - {fileID: 1387323714}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -45669,11 +45643,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1640772876959482887, guid: 07a5829a7e098c540b66ec62f4146dca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.3
+      value: -7.9
       objectReference: {fileID: 0}
     - target: {fileID: 1640772876959482887, guid: 07a5829a7e098c540b66ec62f4146dca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 27.3
+      value: -3.26
       objectReference: {fileID: 0}
     - target: {fileID: 1640772876959482887, guid: 07a5829a7e098c540b66ec62f4146dca, type: 3}
       propertyPath: m_LocalPosition.z
