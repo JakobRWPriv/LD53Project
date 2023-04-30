@@ -9,6 +9,7 @@ TagManager:
   - PlayerAttack
   - DoorGoal
   - DoorGoal0
+  - EnemyInstaKill
   layers:
   - Default
   - TransparentFX
