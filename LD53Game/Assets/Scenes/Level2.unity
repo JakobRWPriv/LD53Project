@@ -2520,6 +2520,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 236816061}
+  - component: {fileID: 236816062}
   m_Layer: 0
   m_Name: SquishAnimator
   m_TagString: Untagged
@@ -2542,6 +2543,25 @@ Transform:
   m_Father: {fileID: 1709216027}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &236816062
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236816060}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e881152ebd12d8b4a9697501453be5e4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &242836416
 GameObject:
   m_ObjectHideFlags: 0
@@ -16408,9 +16428,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1628908602}
   - component: {fileID: 1628908603}
+  - component: {fileID: 1628908604}
   m_Layer: 0
   m_Name: GhostEnemy1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16446,6 +16467,21 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.9
+--- !u!114 &1628908604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628908601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd0b9079a0c7d0d47a12624470f08737, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collider2D: {fileID: 1628908603}
+  player: {fileID: 1425063627}
+  squishAnimator: {fileID: 236816062}
 --- !u!1 &1651936631
 GameObject:
   m_ObjectHideFlags: 0
