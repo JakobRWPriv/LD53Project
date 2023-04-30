@@ -73,18 +73,33 @@ public class MovingPlatform : MonoBehaviour
             if (currentPoint == platformPoints.Length - 1) {
                 transform.position = platformPoints[1].position;
                 currentPoint--;
-                print("END");
-                print("TIME PASSED: " + Time.timeSinceLevelLoad);
             }
         }
         
     }
     private void Start() {
+        if (waitsForPlayerBeforeStarting) return;
         if (startDelay > 0) {
             canMove = false;
             StartCoroutine(DelayCo(startDelay));
         }
-        targetPoint = platformPoints[0];
+        if (movingPlatformType != Type.LoopTeleport) {
+            targetPoint = platformPoints[1];
+        } else {
+            targetPoint = platformPoints[0];
+        }
+        if (smoothMovement) {
+            currentPoint = 1;
+            MoveToPointTween(platformPoints[1]);
+        }
+    }
+
+    public void StartWhenPlayerLands() {
+        waitsForPlayerBeforeStarting = false;
+        if (smoothMovement) {
+            currentPoint = 1;
+            MoveToPointTween(platformPoints[1]);
+        }
     }
 
     IEnumerator DelayCo(float delay) {

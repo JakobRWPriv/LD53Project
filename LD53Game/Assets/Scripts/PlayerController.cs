@@ -278,6 +278,9 @@ public class PlayerController : MonoBehaviour
             mpt = otherCollider.GetComponent<MovingPlatformTrigger>();
             if (isGrounded) {
                 transform.parent = mpt.movingPlatform.transform;
+                if (mpt.movingPlatform.waitsForPlayerBeforeStarting) {
+                    mpt.movingPlatform.StartWhenPlayerLands();
+                }
             } else {
                 transform.parent = null;
             }
