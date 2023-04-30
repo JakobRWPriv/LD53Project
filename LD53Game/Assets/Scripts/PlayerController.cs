@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
     public Collider2D groundTrigger;
     bool hasLanded;
     public bool hasDied;
+    public bool hasKey;
+    public GameObject hasKeyUIObject;
 
     public bool canDash = true;
     public bool isDashing;
