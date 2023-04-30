@@ -23,7 +23,7 @@ public class GhostEnemy : MonoBehaviour
     }
 
     IEnumerator ToggleCollider() {
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.5f);
         collider2D.enabled = true;
     }
 }

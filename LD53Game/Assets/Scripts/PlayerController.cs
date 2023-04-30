@@ -54,6 +54,9 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape)) {
             Application.Quit();
         }
+        if (Input.GetKeyDown(KeyCode.R)) {
+            Die();
+        }
 
         if (!isGrounded && hasLanded) {
             hasLanded = false;
