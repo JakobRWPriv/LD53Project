@@ -165,7 +165,7 @@ GameObject:
   - component: {fileID: 2594442}
   - component: {fileID: 2594443}
   m_Layer: 6
-  m_Name: Fill
+  m_Name: Fill DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -226,7 +226,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -871907234539676369, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35754102, g: 0.31959775, b: 0.3584906, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -247,7 +247,7 @@ GameObject:
   - component: {fileID: 10560825}
   - component: {fileID: 10560826}
   m_Layer: 6
-  m_Name: StoneColor
+  m_Name: StoneColor LightColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -308,7 +308,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: -871907234539676369, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.6037736, g: 0.5724457, b: 0.6037736, a: 1}
+  m_Color: {r: 0.7735849, g: 0.47272646, b: 0.29556784, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -359,7 +359,7 @@ GameObject:
   - component: {fileID: 41972248}
   - component: {fileID: 41972249}
   m_Layer: 6
-  m_Name: StoneColor
+  m_Name: StoneColor LightColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -420,7 +420,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: -871907234539676369, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.6037736, g: 0.5724457, b: 0.6037736, a: 1}
+  m_Color: {r: 0.7735849, g: 0.47272646, b: 0.29556784, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -506,7 +506,7 @@ GameObject:
   - component: {fileID: 84827106}
   - component: {fileID: 84827107}
   m_Layer: 6
-  m_Name: Fill
+  m_Name: Fill DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -567,7 +567,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -871907234539676369, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35754102, g: 0.31959775, b: 0.3584906, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -689,7 +689,7 @@ GameObject:
   - component: {fileID: 89338646}
   - component: {fileID: 89338647}
   m_Layer: 6
-  m_Name: StoneColor
+  m_Name: StoneColor LightColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -750,7 +750,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: -871907234539676369, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.6037736, g: 0.5724457, b: 0.6037736, a: 1}
+  m_Color: {r: 0.7735849, g: 0.47272646, b: 0.29556784, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -988,7 +988,7 @@ GameObject:
   - component: {fileID: 137576211}
   - component: {fileID: 137576212}
   m_Layer: 6
-  m_Name: Fill
+  m_Name: Fill DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1049,7 +1049,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -871907234539676369, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35754102, g: 0.31959775, b: 0.3584906, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -1312,6 +1312,88 @@ MonoBehaviour:
     m_Extent: {x: 0.20997134, y: 0.17422849, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
+--- !u!1 &195586641
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 195586642}
+  - component: {fileID: 195586643}
+  m_Layer: 0
+  m_Name: BackgroundShade
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &195586642
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195586641}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.4193888, y: 1.2912855, z: 330.14297}
+  m_LocalScale: {x: 50, y: 50, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1328048079}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &195586643
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195586641}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 899569853
+  m_SortingLayer: -2
+  m_SortingOrder: -900
+  m_Sprite: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
+  m_Color: {r: 0.8113208, g: 0.46009484, b: 0, a: 0.105882354}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 31.1, y: 44.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &208118465
 GameObject:
   m_ObjectHideFlags: 0
@@ -1498,7 +1580,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 100
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0.25490198, g: 0.22745098, b: 0.25490198, a: 1}
+  m_Color: {r: 0.14150941, g: 0.09872891, b: 0.04739231, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1570,7 +1652,7 @@ GameObject:
   - component: {fileID: 271681649}
   - component: {fileID: 271681648}
   m_Layer: 6
-  m_Name: Stone
+  m_Name: Stone DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1649,7 +1731,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: -7925157222857896072, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35754102, g: 0.31959775, b: 0.3584906, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -1701,7 +1783,7 @@ GameObject:
   - component: {fileID: 282241900}
   - component: {fileID: 282241901}
   m_Layer: 0
-  m_Name: DoorFill
+  m_Name: DoorFill LightColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1762,7 +1844,7 @@ SpriteRenderer:
   m_SortingLayer: -2
   m_SortingOrder: 999
   m_Sprite: {fileID: 436563815456543028, guid: 7a525d60ed253be418e735fa016263f4, type: 3}
-  m_Color: {r: 0.4339623, g: 0.39916342, b: 0.4339623, a: 1}
+  m_Color: {r: 0.77254903, g: 0.4745098, b: 0.29411766, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1971,7 +2053,7 @@ GameObject:
   - component: {fileID: 334842094}
   - component: {fileID: 334842095}
   m_Layer: 6
-  m_Name: Fill
+  m_Name: Fill DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2032,7 +2114,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -871907234539676369, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35754102, g: 0.31959775, b: 0.3584906, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -2053,7 +2135,7 @@ GameObject:
   - component: {fileID: 341946697}
   - component: {fileID: 341946698}
   m_Layer: 6
-  m_Name: Stone (2)
+  m_Name: Stone (2) DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2114,7 +2196,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 104
   m_Sprite: {fileID: 7193844817558614349, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35686275, g: 0.31764707, b: 0.35686275, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -2431,7 +2513,7 @@ GameObject:
   - component: {fileID: 361578375}
   - component: {fileID: 361578374}
   m_Layer: 6
-  m_Name: Stone
+  m_Name: Stone DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2510,7 +2592,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: -7925157222857896072, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35754102, g: 0.31959775, b: 0.3584906, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -2562,7 +2644,7 @@ GameObject:
   - component: {fileID: 364420173}
   - component: {fileID: 364420172}
   m_Layer: 6
-  m_Name: Stone (2)
+  m_Name: Stone (2) DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2641,7 +2723,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 110
   m_Sprite: {fileID: 54522180897507154, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35754102, g: 0.31959775, b: 0.3584906, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -2662,7 +2744,7 @@ GameObject:
   - component: {fileID: 376794979}
   - component: {fileID: 376794980}
   m_Layer: 6
-  m_Name: Fill
+  m_Name: Fill DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2723,7 +2805,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -871907234539676369, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35754102, g: 0.31959775, b: 0.3584906, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -2744,7 +2826,7 @@ GameObject:
   - component: {fileID: 384532252}
   - component: {fileID: 384532253}
   m_Layer: 0
-  m_Name: DoorFill
+  m_Name: DoorFill LightColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2805,7 +2887,7 @@ SpriteRenderer:
   m_SortingLayer: -2
   m_SortingOrder: 999
   m_Sprite: {fileID: 436563815456543028, guid: 7a525d60ed253be418e735fa016263f4, type: 3}
-  m_Color: {r: 0.4339623, g: 0.39916342, b: 0.4339623, a: 1}
+  m_Color: {r: 0.77254903, g: 0.4745098, b: 0.29411766, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2884,7 +2966,7 @@ GameObject:
   - component: {fileID: 409065119}
   - component: {fileID: 409065118}
   m_Layer: 6
-  m_Name: Stone
+  m_Name: Stone DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2963,7 +3045,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 110
   m_Sprite: {fileID: 54522180897507154, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35754102, g: 0.31959775, b: 0.3584906, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -3154,7 +3236,7 @@ GameObject:
   - component: {fileID: 474576818}
   - component: {fileID: 474576819}
   m_Layer: 6
-  m_Name: Stone (1)
+  m_Name: Stone (1) LightColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3215,7 +3297,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 105
   m_Sprite: {fileID: 7193844817558614349, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.54901963, g: 0.5137255, b: 0.62352943, a: 1}
+  m_Color: {r: 0.7735849, g: 0.47272646, b: 0.29556784, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -3236,7 +3318,7 @@ GameObject:
   - component: {fileID: 474601357}
   - component: {fileID: 474601358}
   m_Layer: 6
-  m_Name: StoneColor
+  m_Name: StoneColor LightColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3297,7 +3379,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: -871907234539676369, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.6037736, g: 0.5724457, b: 0.6037736, a: 1}
+  m_Color: {r: 0.7735849, g: 0.47272646, b: 0.29556784, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -3319,7 +3401,7 @@ GameObject:
   - component: {fileID: 481544371}
   - component: {fileID: 481544370}
   m_Layer: 6
-  m_Name: Stone
+  m_Name: Stone DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3398,7 +3480,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: -7925157222857896072, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35754102, g: 0.31959775, b: 0.3584906, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -3605,7 +3687,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.16727483, g: 0.17170078, b: 0.1981132, a: 1}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -3801,7 +3883,7 @@ SpriteRenderer:
   m_SortingLayer: -2
   m_SortingOrder: 900
   m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
-  m_Color: {r: 0.061236575, g: 0.059674278, b: 0.084905684, a: 1}
+  m_Color: {r: 0.056908894, g: 0.047525797, b: 0.11320752, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3822,7 +3904,7 @@ GameObject:
   - component: {fileID: 555740858}
   - component: {fileID: 555740859}
   m_Layer: 6
-  m_Name: StoneColor
+  m_Name: StoneColor LightColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3883,7 +3965,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: -871907234539676369, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.6037736, g: 0.5724457, b: 0.6037736, a: 1}
+  m_Color: {r: 0.7735849, g: 0.47272646, b: 0.29556784, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -3904,7 +3986,7 @@ GameObject:
   - component: {fileID: 561726700}
   - component: {fileID: 561726701}
   m_Layer: 6
-  m_Name: Stone (5)
+  m_Name: Stone (5) DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3965,7 +4047,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 104
   m_Sprite: {fileID: 7193844817558614349, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35686275, g: 0.31764707, b: 0.35686275, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -3986,7 +4068,7 @@ GameObject:
   - component: {fileID: 565114743}
   - component: {fileID: 565114744}
   m_Layer: 6
-  m_Name: Fill
+  m_Name: Fill DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4047,7 +4129,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -871907234539676369, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35754102, g: 0.31959775, b: 0.3584906, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -4541,7 +4623,7 @@ GameObject:
   - component: {fileID: 693583939}
   - component: {fileID: 693583940}
   m_Layer: 6
-  m_Name: Fill
+  m_Name: Fill DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4602,7 +4684,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -871907234539676369, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35754102, g: 0.31959775, b: 0.3584906, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -4943,7 +5025,7 @@ GameObject:
   - component: {fileID: 771793762}
   - component: {fileID: 771793763}
   m_Layer: 6
-  m_Name: StoneColor
+  m_Name: StoneColor LightColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5004,7 +5086,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: -871907234539676369, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.6037736, g: 0.5724457, b: 0.6037736, a: 1}
+  m_Color: {r: 0.7735849, g: 0.47272646, b: 0.29556784, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -5997,7 +6079,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 100
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0.254717, g: 0.2270826, b: 0.254717, a: 1}
+  m_Color: {r: 0.14150941, g: 0.09872891, b: 0.04739231, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6015,7 +6097,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 938237174}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.759001, y: -9.137768, z: 149.5176}
+  m_LocalPosition: {x: 0.75900126, y: -9.137768, z: 149.5176}
   m_LocalScale: {x: 37.6, y: 3, z: 1}
   m_Children:
   - {fileID: 409065117}
@@ -6205,7 +6287,7 @@ GameObject:
   - component: {fileID: 949544310}
   - component: {fileID: 949544311}
   m_Layer: 6
-  m_Name: StoneColor
+  m_Name: StoneColor LightColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6266,7 +6348,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: -871907234539676369, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.6037736, g: 0.5724457, b: 0.6037736, a: 1}
+  m_Color: {r: 0.7735849, g: 0.47272646, b: 0.29556784, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -6352,7 +6434,7 @@ GameObject:
   - component: {fileID: 1001073159}
   - component: {fileID: 1001073160}
   m_Layer: 6
-  m_Name: Stone (6)
+  m_Name: Stone (6) LightColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6413,7 +6495,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 105
   m_Sprite: {fileID: 7193844817558614349, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.54901963, g: 0.5137255, b: 0.62352943, a: 1}
+  m_Color: {r: 0.7735849, g: 0.47272646, b: 0.29556784, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -6607,7 +6689,7 @@ GameObject:
   - component: {fileID: 1024650124}
   - component: {fileID: 1024650125}
   m_Layer: 6
-  m_Name: StoneColor
+  m_Name: StoneColor LightColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6668,7 +6750,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: -871907234539676369, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.6037736, g: 0.5724457, b: 0.6037736, a: 1}
+  m_Color: {r: 0.7735849, g: 0.47272646, b: 0.29556784, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -7055,7 +7137,7 @@ GameObject:
   - component: {fileID: 1086208187}
   - component: {fileID: 1086208188}
   m_Layer: 6
-  m_Name: Stone (3)
+  m_Name: Stone (3) LightColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7116,7 +7198,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 105
   m_Sprite: {fileID: 7193844817558614349, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.54901963, g: 0.5137255, b: 0.62352943, a: 1}
+  m_Color: {r: 0.7735849, g: 0.47272646, b: 0.29556784, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -7342,7 +7424,7 @@ GameObject:
   - component: {fileID: 1131289154}
   - component: {fileID: 1131289155}
   m_Layer: 6
-  m_Name: Fill
+  m_Name: Fill DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7403,7 +7485,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -871907234539676369, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35754102, g: 0.31959775, b: 0.3584906, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -7424,7 +7506,7 @@ GameObject:
   - component: {fileID: 1131387942}
   - component: {fileID: 1131387943}
   m_Layer: 6
-  m_Name: Fill
+  m_Name: Fill DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7485,7 +7567,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -871907234539676369, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35754102, g: 0.31959775, b: 0.3584906, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -7693,7 +7775,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 100
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0.25490198, g: 0.22745098, b: 0.25490198, a: 1}
+  m_Color: {r: 0.14150941, g: 0.09872891, b: 0.04739231, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -7732,7 +7814,7 @@ GameObject:
   - component: {fileID: 1199182636}
   - component: {fileID: 1199182635}
   m_Layer: 6
-  m_Name: Stone
+  m_Name: Stone DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7811,7 +7893,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: -7925157222857896072, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35754102, g: 0.31959775, b: 0.3584906, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -7833,7 +7915,7 @@ GameObject:
   - component: {fileID: 1253462700}
   - component: {fileID: 1253462699}
   m_Layer: 6
-  m_Name: Stone
+  m_Name: Stone DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7912,7 +7994,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: -7925157222857896072, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35754102, g: 0.31959775, b: 0.3584906, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -8230,7 +8312,7 @@ GameObject:
   - component: {fileID: 1316223018}
   - component: {fileID: 1316223017}
   m_Layer: 6
-  m_Name: Stone
+  m_Name: Stone DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8309,7 +8391,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: -7925157222857896072, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35754102, g: 0.31959775, b: 0.3584906, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -8348,6 +8430,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 602511806}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1328048078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1328048079}
+  m_Layer: 0
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1328048079
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328048078}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.50061136, y: 12.908714, z: -330.14297}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1941431151}
+  - {fileID: 195586642}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1329893904
 GameObject:
@@ -8451,7 +8565,7 @@ SpriteRenderer:
   m_SortingLayer: -2
   m_SortingOrder: 900
   m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
-  m_Color: {r: 0.061236575, g: 0.059674278, b: 0.084905684, a: 1}
+  m_Color: {r: 0.056908894, g: 0.047525797, b: 0.11320752, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8587,7 +8701,7 @@ GameObject:
   - component: {fileID: 1395326536}
   - component: {fileID: 1395326537}
   m_Layer: 6
-  m_Name: StoneColor
+  m_Name: StoneColor LightColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8648,7 +8762,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: -871907234539676369, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.6037736, g: 0.5724457, b: 0.6037736, a: 1}
+  m_Color: {r: 0.7735849, g: 0.47272646, b: 0.29556784, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -8969,7 +9083,7 @@ GameObject:
   - component: {fileID: 1455345513}
   - component: {fileID: 1455345512}
   m_Layer: 6
-  m_Name: Stone (5)
+  m_Name: Stone (5) DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9048,7 +9162,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 110
   m_Sprite: {fileID: 54522180897507154, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35754102, g: 0.31959775, b: 0.3584906, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -9172,7 +9286,7 @@ GameObject:
   - component: {fileID: 1461680175}
   - component: {fileID: 1461680174}
   m_Layer: 6
-  m_Name: Stone (3)
+  m_Name: Stone (3) DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9251,7 +9365,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 110
   m_Sprite: {fileID: 54522180897507154, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35754102, g: 0.31959775, b: 0.3584906, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -9579,7 +9693,7 @@ GameObject:
   - component: {fileID: 1521576673}
   - component: {fileID: 1521576674}
   m_Layer: 6
-  m_Name: Stone (4)
+  m_Name: Stone (4) LightColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9640,7 +9754,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 105
   m_Sprite: {fileID: 7193844817558614349, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.54901963, g: 0.5137255, b: 0.62352943, a: 1}
+  m_Color: {r: 0.7735849, g: 0.47272646, b: 0.29556784, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -10226,7 +10340,7 @@ SpriteRenderer:
   m_SortingLayer: -2
   m_SortingOrder: 900
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0.061236575, g: 0.059674278, b: 0.084905684, a: 1}
+  m_Color: {r: 0.056908894, g: 0.047525797, b: 0.11320752, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -10312,7 +10426,7 @@ GameObject:
   - component: {fileID: 1605576402}
   - component: {fileID: 1605576403}
   m_Layer: 6
-  m_Name: Fill
+  m_Name: Fill DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10373,7 +10487,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -871907234539676369, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35754102, g: 0.31959775, b: 0.3584906, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -10643,7 +10757,7 @@ GameObject:
   - component: {fileID: 1670764906}
   - component: {fileID: 1670764905}
   m_Layer: 6
-  m_Name: Stone
+  m_Name: Stone DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10722,7 +10836,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: -7925157222857896072, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35754102, g: 0.31959775, b: 0.3584906, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -10820,7 +10934,7 @@ GameObject:
   - component: {fileID: 1701182423}
   - component: {fileID: 1701182422}
   m_Layer: 6
-  m_Name: Stone
+  m_Name: Stone DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10899,7 +11013,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: -7925157222857896072, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35754102, g: 0.31959775, b: 0.3584906, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -11023,7 +11137,7 @@ GameObject:
   - component: {fileID: 1733129084}
   - component: {fileID: 1733129083}
   m_Layer: 0
-  m_Name: Door
+  m_Name: Door DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11102,7 +11216,7 @@ SpriteRenderer:
   m_SortingLayer: -2
   m_SortingOrder: 1000
   m_Sprite: {fileID: 5213229242370633579, guid: 7a525d60ed253be418e735fa016263f4, type: 3}
-  m_Color: {r: 0.254717, g: 0.2270826, b: 0.254717, a: 1}
+  m_Color: {r: 0.32941177, g: 0.19607843, b: 0.105882354, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -11408,7 +11522,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 100
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0.25490198, g: 0.22745098, b: 0.25490198, a: 1}
+  m_Color: {r: 0.14150941, g: 0.09872891, b: 0.04739231, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -11581,7 +11695,7 @@ GameObject:
   - component: {fileID: 1820305376}
   - component: {fileID: 1820305377}
   m_Layer: 6
-  m_Name: StoneColor
+  m_Name: StoneColor LightColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11642,7 +11756,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: -871907234539676369, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.6037736, g: 0.5724457, b: 0.6037736, a: 1}
+  m_Color: {r: 0.7735849, g: 0.47272646, b: 0.29556784, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -11776,7 +11890,7 @@ GameObject:
   - component: {fileID: 1825586204}
   - component: {fileID: 1825586205}
   m_Layer: 6
-  m_Name: Stone (4)
+  m_Name: Stone (4) DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11837,7 +11951,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 104
   m_Sprite: {fileID: 7193844817558614349, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35686275, g: 0.31764707, b: 0.35686275, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -11959,7 +12073,7 @@ GameObject:
   - component: {fileID: 1834216711}
   - component: {fileID: 1834216712}
   m_Layer: 6
-  m_Name: StoneColor
+  m_Name: StoneColor LightColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12020,7 +12134,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: -871907234539676369, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.6037736, g: 0.5724457, b: 0.6037736, a: 1}
+  m_Color: {r: 0.7735849, g: 0.47272646, b: 0.29556784, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -12122,7 +12236,7 @@ GameObject:
   - component: {fileID: 1858253026}
   - component: {fileID: 1858253027}
   m_Layer: 6
-  m_Name: Fill
+  m_Name: Fill DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12183,7 +12297,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -871907234539676369, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35754102, g: 0.31959775, b: 0.3584906, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -12510,7 +12624,7 @@ GameObject:
   - component: {fileID: 1921769170}
   - component: {fileID: 1921769169}
   m_Layer: 6
-  m_Name: Stone
+  m_Name: Stone DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12589,7 +12703,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: -7925157222857896072, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35754102, g: 0.31959775, b: 0.3584906, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -12611,7 +12725,7 @@ GameObject:
   - component: {fileID: 1927153476}
   - component: {fileID: 1927153475}
   m_Layer: 6
-  m_Name: Stone
+  m_Name: Stone DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12690,7 +12804,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: -7925157222857896072, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35754102, g: 0.31959775, b: 0.3584906, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -12757,6 +12871,88 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1941431149
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1941431151}
+  - component: {fileID: 1941431150}
+  m_Layer: 0
+  m_Name: Background2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1941431150
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941431149}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 899569853
+  m_SortingLayer: -2
+  m_SortingOrder: -1000
+  m_Sprite: {fileID: 21300000, guid: 0287e9d5266e9034fb5f9a47956639dd, type: 3}
+  m_Color: {r: 0.8113208, g: 0.4154289, b: 0, a: 0.105882354}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 2
+  m_Size: {x: 31.1, y: 44.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1941431151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941431149}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.4193888, y: 5.5912857, z: 330.14297}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1328048079}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1952140655
 GameObject:
   m_ObjectHideFlags: 0
@@ -12769,7 +12965,7 @@ GameObject:
   - component: {fileID: 1952140657}
   - component: {fileID: 1952140658}
   m_Layer: 6
-  m_Name: Stone
+  m_Name: Stone DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12830,7 +13026,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: -7925157222857896072, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35754102, g: 0.31959775, b: 0.3584906, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -13129,7 +13325,7 @@ GameObject:
   - component: {fileID: 2053537413}
   - component: {fileID: 2053537414}
   m_Layer: 6
-  m_Name: Stone (7)
+  m_Name: Stone (7) DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13190,7 +13386,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 104
   m_Sprite: {fileID: 7193844817558614349, guid: 70c8696c09a76014d8eeb7f4f584d62a, type: 3}
-  m_Color: {r: 0.35686275, g: 0.31764707, b: 0.35686275, a: 1}
+  m_Color: {r: 0.3301887, g: 0.19569941, b: 0.10435208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -13280,7 +13476,7 @@ GameObject:
   - component: {fileID: 2072738487}
   - component: {fileID: 2072738488}
   m_Layer: 0
-  m_Name: Door
+  m_Name: Door DarkColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13341,7 +13537,7 @@ SpriteRenderer:
   m_SortingLayer: -2
   m_SortingOrder: 1000
   m_Sprite: {fileID: 5213229242370633579, guid: 7a525d60ed253be418e735fa016263f4, type: 3}
-  m_Color: {r: 0.254717, g: 0.2270826, b: 0.254717, a: 1}
+  m_Color: {r: 0.32941177, g: 0.19607843, b: 0.105882354, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -13542,7 +13738,7 @@ SpriteRenderer:
   m_SortingLayer: -2
   m_SortingOrder: 900
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0.061236575, g: 0.059674278, b: 0.084905684, a: 1}
+  m_Color: {r: 0.056908894, g: 0.047525797, b: 0.11320752, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
