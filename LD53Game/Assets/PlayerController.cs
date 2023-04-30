@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -40,12 +41,19 @@ public class PlayerController : MonoBehaviour
     bool cannotMove;
     bool isInvincible;
 
+    public Animator screenWipeAnimator;
+    bool isLoadingLevel;
+
     void Start() {
         //allSprites = spritePos.GetComponentsInChildren<SpriteRenderer>(true);
         isFacingRight = true;
     }
 
     void Update() {
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            Application.Quit();
+        }
+
         if (!isGrounded && hasLanded) {
             hasLanded = false;
         }
@@ -271,11 +279,22 @@ public class PlayerController : MonoBehaviour
                 transform.parent = null;
             }
         }
+
+        if (Input.GetKey(KeyCode.UpArrow) && isGrounded && !isLoadingLevel && otherCollider.tag == "DoorGoal0") {
+            isLoadingLevel = true;
+            StartCoroutine(LoadLevel(1));
+        }
     }
 
     void OnTriggerExit2D(Collider2D otherCollider) {
         if (otherCollider.tag == "MovingPlatformTrigger") {
             transform.parent = null;
         }
+    }
+
+    IEnumerator LoadLevel(int levelToLoad) {
+        screenWipeAnimator.SetTrigger("ScreenWipeClose");
+        yield return new WaitForSeconds(1.5f);
+        SceneManager.LoadScene(levelToLoad);
     }
 }

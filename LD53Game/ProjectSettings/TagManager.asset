@@ -7,6 +7,8 @@ TagManager:
   - MovingPlatformTrigger
   - Enemy
   - PlayerAttack
+  - DoorGoal
+  - DoorGoal0
   layers:
   - Default
   - TransparentFX
@@ -52,4 +54,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 674953131
+    locked: 0
+  - name: UI
+    uniqueID: 3434346579
     locked: 0

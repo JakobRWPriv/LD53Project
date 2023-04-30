@@ -5,6 +5,8 @@ using UnityEngine;
 public class Enemy1Script : Enemy
 {
     public PlayerController player;
+    public bool isTutorialEnemy;
+    public GameObject tutorialText;
     public bool playerInFront;
     public Collider2D frontCollider;
     public Animator animator;
@@ -45,6 +47,11 @@ public class Enemy1Script : Enemy
     public override void TakeDamage() {
         base.TakeDamage();
         player.DashAttackHit();
+
+        if (isTutorialEnemy) {
+            tutorialText.SetActive(true);
+        }
+
         Destroy(gameObject);
     }
 }
