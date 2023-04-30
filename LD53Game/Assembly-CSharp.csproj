@@ -41,6 +41,7 @@
      <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
      <Compile Include="Assets\LeanTween\Framework\LTDescr.cs" />
      <Compile Include="Assets\LeanTween\Framework\LeanTweenExt.cs" />
+     <Compile Include="Assets\Enemy.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\TestingUnitTests.cs" />
      <Compile Include="Assets\LeanTween\Examples\Archived\TestingPunch.cs" />
      <Compile Include="Assets\LeanTween\Framework\LTSeq.cs" />
@@ -66,6 +67,7 @@
      <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacyExt.cs" />
      <Compile Include="Assets\MovingPlatformTrigger.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplinePerformance.cs" />
+     <Compile Include="Assets\EnemyTakeDamageTrigger.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier2d.cs" />
      <Compile Include="Assets\LeanTween\Framework\LTDescrOptional.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEasingTypes.cs" />
@@ -75,8 +77,6 @@
      <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasic.cs" />
      <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
-     <Compile Include="Assets\Enemy.cs" />
-     <Compile Include="Assets\EnemyTakeDamageTrigger.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\LeanTween\ReadMe.txt" />
