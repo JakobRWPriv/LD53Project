@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\KeyDoor.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralUISpace.cs" />
      <Compile Include="Assets\LeanTween\Framework\LeanAudio.cs" />
+     <Compile Include="Assets\PlayerSoundEffectMethods.cs" />
      <Compile Include="Assets\Scripts\Key.cs" />
      <Compile Include="Assets\Scripts\GhostEnemy.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSimpleUI.cs" />
@@ -65,6 +66,7 @@
      <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasics2d.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplines.cs" />
      <Compile Include="Assets\Scripts\AudioHandler.cs" />
+     <Compile Include="Assets\Scripts\AudioObj.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEventsListeners.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineTrack.cs" />
      <Compile Include="Assets\Scripts\SquigglySprite.cs" />
@@ -85,8 +87,8 @@
      <Compile Include="Assets\Scripts\DoorGoal.cs" />
      <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
-     <Compile Include="Assets\Scripts\AudioObj.cs" />
-     <Compile Include="Assets\PlayerSoundEffectMethods.cs" />
+     <Compile Include="Assets\IntroScript.cs" />
+     <Compile Include="Assets\EscToExit.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\LeanTween\ReadMe.txt" />

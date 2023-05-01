@@ -9,6 +9,8 @@ public class AudioHandler : MonoBehaviour {
     public GameObject audioObj;
     public Transform audioObjParent;
 
+    public AudioSource music;
+
     [Space]
     [Header("Player")]
     public AudioClip Land;
@@ -61,5 +63,9 @@ public class AudioHandler : MonoBehaviour {
         } else {
             InstantiatedAudioObj.GetComponent<AudioObj>().PlaySoundDelayed(delay, sound, volume, pitch);
         }
+    }
+
+    public void StopMusic() {
+        music.Stop();
     }
 }

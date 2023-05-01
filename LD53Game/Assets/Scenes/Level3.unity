@@ -2727,7 +2727,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1640772876959482887, guid: 07a5829a7e098c540b66ec62f4146dca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.288004
+      value: -3.1
       objectReference: {fileID: 0}
     - target: {fileID: 1640772876959482887, guid: 07a5829a7e098c540b66ec62f4146dca, type: 3}
       propertyPath: m_LocalPosition.z
@@ -19002,7 +19002,7 @@ SpriteRenderer:
   m_SortingLayer: -2
   m_SortingOrder: 900
   m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
-  m_Color: {r: 0.12482202, g: 0.12771595, b: 0.16037738, a: 1}
+  m_Color: {r: 0.745105, g: 0.77133024, b: 0.9811321, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -34198,6 +34198,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioObj: {fileID: 6888840683908475875, guid: e406cc3a13491af4392c3d7b10bae2d7, type: 3}
   audioObjParent: {fileID: 374609403}
+  music: {fileID: 1437651235}
   Land: {fileID: 8300000, guid: 1c93a93a452b3254cab02fd99a81c97f, type: 3}
   Jump: {fileID: 8300000, guid: 664fd527ad4609d4898b22c7d3976db1, type: 3}
   Dash: {fileID: 8300000, guid: f4dfa4d6869056d458380e0cb14c4b3a, type: 3}
@@ -51585,7 +51586,7 @@ SpriteRenderer:
   m_SortingLayer: -2
   m_SortingOrder: 900
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0.12482202, g: 0.12771595, b: 0.16037738, a: 1}
+  m_Color: {r: 0.745105, g: 0.77133024, b: 0.9811321, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

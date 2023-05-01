@@ -294,15 +294,20 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.UpArrow) && isGrounded && !isLoadingLevel && otherCollider.tag == "DoorGoal0") {
             isLoadingLevel = true;
-            StartCoroutine(LoadLevel(1));
+            StartCoroutine(LoadLevel(2));
         }
         if (Input.GetKey(KeyCode.UpArrow) && isGrounded && !isLoadingLevel && otherCollider.tag == "DoorGoal1") {
             isLoadingLevel = true;
-            StartCoroutine(LoadLevel(2));
+            StartCoroutine(LoadLevel(3));
         }
         if (Input.GetKey(KeyCode.UpArrow) && isGrounded && !isLoadingLevel && otherCollider.tag == "DoorGoal2") {
             isLoadingLevel = true;
-            StartCoroutine(LoadLevel(3));
+            StartCoroutine(LoadLevel(4));
+        }
+        if (Input.GetKey(KeyCode.UpArrow) && isGrounded && !isLoadingLevel && otherCollider.tag == "DoorGoal3") {
+            AudioHandler.Instance.StopMusic();
+            isLoadingLevel = true;
+            StartCoroutine(LoadLevel(5));
         }
     }
 
